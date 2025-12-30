@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sairthmatic operations</title>
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+
+</head>
+
+<body class="bg-light">
+
+    <div class="container mt-5">
+        <div class="row">
+
+ <div class="col-md-6">
+ <div class="card">
+<div class="card-body">
+ <h3 class="text-center mb-4">Arithmetic operations</h3>
+
+ <form action="">
+
+
+ <div class="mb-3">
+             <label>first number</label>
+               <input type="number" class="form-control" id="first_num" placeholder=" 1345 "
+                                    name="first_num">
+                       </div>
+
+                    <div class="mb-3">
+                 <label>last num</label>
+                                <input type="number" class="form-control" id="last_num" placeholder="13245"
+                                    name="last_num">
+              </div>
+
+                            <div>
+            <button onclick="sum()" class="btn btn-success mt-3">addition</button>
+                            </div>
+
+                             <div>
+                   <button onclick="sub()" class="btn btn-success mt-3">Subtraction</button>
+                            </div>
+
+                             <div>
+                                <button onclick="div()" class="btn btn-success mt-3">divison</button>
+                            </div>
+                             <div>
+                                <button onclick="mul()" class="btn btn-success mt-3">multiply</button>
+                            </div>
+
+                        </form>
+                    </div>
+
+</body>
+<script> function sum() {
+      let s1 = document.getElementById("first_num").value 
+      let s2 = document.getElementById("last_num").value
+     let sum = s1+s2
+        alert(sum)
+}
+function sub() {
+       var s1 = document.getElementById("first_num").value 
+      var s2 = document.getElementById("last_num").value
+       
+        alert(s1-s2)
+}
+function mul() {
+       var s1 = document.getElementById("first_num").value 
+      var s2 = document.getElementById("last_num").value
+       
+        alert(s1*s2)
+}
+function div() {
+       var s1 = document.getElementById("first_num").value 
+      var s2 = document.getElementById("last_num").value
+       
+        alert(s1/s2)
+}
+</script>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="formtotable.css">
+    <title>wpl lab 3</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body class="bg-light">
+ <div class="container mt-5 p-5  ">
+ <div class="row ">
+
+  <div class="col-md-6 " id="" >
+     <div class="card">
+     <div class="card-body">
+    <h1 class="text-center mb-4">Signup Form</h1>
+    <form action="">
+        <div class="mb-4">
+            <label>first name</label>
+            <input type="text" class="form-control" id="first_name" placeholder="Ahsan "name="first_name">
+        </div>
+        <div class="mb-4">
+            <label>last name</label>
+            <input type="text" class="form-control" id="last_name" placeholder="zafar" name="last_name">
+         </div>
+         <div class="mb-4">
+             <label>Email</label>
+             <input type="email" class="form-control" id="email" placeholder="ahsanxyz@gmail.com" name="email">
+             </div>
+              <div class="mb-4">
+                 <label>Contact</label>
+                 <input type="text" class="form-control" id="contact" placeholder="0330-786011" name="contact">
+                </div>
+                <div class="mb-4">
+                    <label> address </label>
+                    <input type="text" class="form-control" id="address" placeholder="sector xyz north nazimabad house # 123" name="address">
+                </div>
+                  
+            </form>
+            <div>
+                    <button onclick="add_new();" class="btn-secondary">Submit</button>
+                </div>
+                 
+          
+         </div>
+                </div>
+            </div>
+                    <div class="col-md-6">
+                          <div class="card">
+     <div class="card-body overflow-hidden">
+                        <h1 >Table</h1>
+  <table class="table tbl-responsive table-hover table-bordered" id='tab' >
+    <thead class=" table-success text-center">
+        <tr>
+      <th>first <br>name</th>
+      <th>last <br>Name</th>
+      <th>Email </th>
+      <th>Contact</th>
+      <th>Address</th>
+      </tr>
+    </thead>
+    <tbody class=" table-muted ">
+        <tr>
+            <td>ahsan</td>
+            <td>zafar</td>
+            <td>ahsan@gmail.com</td>
+            <td>090078601</td>
+            <td>fb area karachi</td>
+        </tr>
+
+    </tbody>
+  </table>
+  </div>
+    </div>
+      </div>
+<script src="formtotable.js"></script>
+</body> 
+</html>

@@ -1,0 +1,149 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(236, 219, 178);
+  color: #7B542F;
+  font-weight: bold;
+  line-height: 40px; 
+  font-size: large;
+}
+header {
+  background-color: #7B542F;
+  padding-top: 18px;
+  padding-bottom: 16px;
+}
+nav {
+  text-align: right;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  font-weight: bold;
+}
+#portfolio{
+    font-size: larger;
+    margin-right: 720px;
+}
+nav a:hover {
+  color: #333;
+}
+h1{
+    text-align: left;
+    text-decoration: underline;
+    color:#78551b ;
+    padding-bottom: 100px;
+}
+h2{
+    transition: linear;
+}
+#introp{
+        text-align: left;
+        margin-left: 150px;
+        margin-right: 60px;
+
+}
+#rpg{
+    font-size: 45px;
+    text-align: left;
+margin-left: 150px;
+margin-top: 200px;
+margin-bottom: 50px;
+
+}
+button{
+    border-radius: 20px;
+    background-color: #FF9D00;
+    text-decoration: none;
+    color: #333;
+    margin-left: 150px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 200px;
+}
+#skills{
+    h1{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 50px;
+        background-color: rgb(255, 252, 236);
+        border-radius: 70px;
+    }
+    
+    
+    
+}
+#services{
+    h1{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 50px;
+         background-color: rgb(255, 252, 236);
+        border-radius: 70px;
+    }
+}
+#projects{
+  h1{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 50px;
+         background-color: rgb(255, 252, 236);
+        border-radius: 70px;
+    }
+}
+#about{
+     h1{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 50px;
+         background-color: rgb(255, 252, 236);
+        border-radius: 70px;
+    }
+    
+}
+#contacts{
+      h1{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 50px;
+        background-color: rgb(255, 252, 236);
+        border-radius: 70px;
+    }
+    p{
+        text-transform: none;
+    }
+    
+}
+#paralign{
+       text-align: left;
+        margin-left: 150px;
+        margin-right: 60px;
+          
+       
+
+}
+#paralignlist{
+       text-align: left;
+        margin-left: 150px;
+        margin-right: 60px;
+        margin-bottom: 200px;
+        margin-top: 100%;
+}
+div{
+ background-color: rgb(243, 226, 150);
+ border-radius: 50px;
+ margin-bottom: 50x;
+
+}
+#ab{
+    margin-left: 150px;
+}
