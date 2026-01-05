@@ -29,14 +29,12 @@ include 'userheader.php'
                                 <input type="text" class="form-control" placeholder="Enter your name">
                             </div>
                             <div class="input-group mb-3">
-                                <!--<label class="form-label">Email</label>
-                                <input type="email" class="form-control" placeholder="Enter your email">-->
+                        
                                 <span class="input-group-text">Email</span>
                                 <input type="text" class="form-control" placeholder="Enter your email">
                             </div>
                             <div class="input-group mb-3">
-                                <!--<label class="form-label">Contact</label>
-                                <input type="text" class="form-control" placeholder="Enter contact number">-->
+                              
                                 <span class="input-group-text">Contact</span>
                                 <input type="text" class="form-control" placeholder="Enter your contact">
                             </div>
